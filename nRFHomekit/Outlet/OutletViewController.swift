@@ -112,7 +112,7 @@ class OutletViewController: UIViewController {
         // 20 seconds timeout
         utility.displayActivityIndicator(view, msg: message, xOffset: -60, yOffset: -50)
         let delayInSeconds = 20.0
-        activityTimer = NSTimer.scheduledTimerWithTimeInterval(delayInSeconds, target: self, selector: Selector("processingTimeout"), userInfo: nil, repeats: false)
+        activityTimer = NSTimer.scheduledTimerWithTimeInterval(delayInSeconds, target: self, selector: #selector(OutletViewController.processingTimeout), userInfo: nil, repeats: false)
     }
     
     func stopActivityAnimation() {
