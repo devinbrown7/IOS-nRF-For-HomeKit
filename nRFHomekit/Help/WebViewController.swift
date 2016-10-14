@@ -54,12 +54,10 @@ class WebViewController: UIViewController, UIWebViewDelegate {
     
     // MARK: - UIWebViewDelegate protocols
     
-    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
-        if error != nil {
-            print("Error in loading webpage: " + error!.localizedDescription)
-            utility.removeActivityIndicator()
-            utility.showAlert(self, title: "Error", message: error!.localizedDescription)
-        }
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError) {
+        print("Error in loading webpage: " + error.localizedDescription)
+        utility.removeActivityIndicator()
+        utility.showAlert(self, title: "Error", message: error.localizedDescription)
     }
     
     func webViewDidFinishLoad(webView: UIWebView) {

@@ -138,7 +138,7 @@ class HelpViewController: UIViewController, UITextViewDelegate {
     func getRange(fullText:NSString, stringToSearch:NSString) -> NSRange! {
         var stringRange:NSRange
         var subString:NSString = ""
-        for var index=0; index <= fullText.length-stringToSearch.length; index++  {
+        for index in 0...fullText.length-stringToSearch.length {
             stringRange = NSMakeRange(index, stringToSearch.length)
             subString = fullText.substringWithRange(stringRange)
             if (stringToSearch == subString) {

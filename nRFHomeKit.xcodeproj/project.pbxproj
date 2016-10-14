@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A83711E21BC4150C00977843 /* AddAccessoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83711E11BC4150C00977843 /* AddAccessoryTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A83711E41BC4160300977843 /* AddAccessoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83711E31BC4160300977843 /* AddAccessoryTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		A83711E21BC4150C00977843 /* AddAccessoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83711E11BC4150C00977843 /* AddAccessoryTableViewController.swift */; };
+		A83711E41BC4160300977843 /* AddAccessoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83711E31BC4160300977843 /* AddAccessoryTableViewCell.swift */; };
 		A83893D01B14878B005B738D /* SelectAccessoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83893CF1B14878B005B738D /* SelectAccessoryTableViewController.swift */; };
 		A83940711B552311001DE943 /* HomeKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83940701B552311001DE943 /* HomeKitManager.swift */; };
 		A853B9531B4D4FBF000920B6 /* ISColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = A853B9521B4D4FBF000920B6 /* ISColorWheel.m */; };
@@ -46,7 +46,7 @@
 		A8A0DF7F1AF10B89005FEE8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A0DF7D1AF10B89005FEE8F /* LaunchScreen.xib */; };
 		A8A0DF8B1AF10B89005FEE8F /* nRFHomekitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A0DF8A1AF10B89005FEE8F /* nRFHomekitTests.swift */; };
 		A8A0DF981AF10EB8005FEE8F /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A0DF971AF10EB8005FEE8F /* HomeKit.framework */; };
-		A8A19F001BAC3AAD003A6F2F /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A19EFF1BAC3AAD003A6F2F /* Utility.swift */; settings = {ASSET_TAGS = (); }; };
+		A8A19F001BAC3AAD003A6F2F /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A19EFF1BAC3AAD003A6F2F /* Utility.swift */; };
 		A8A3C2901B739F030073BF91 /* ScannedPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A3C28C1B739F030073BF91 /* ScannedPeripheral.m */; };
 		A8A3C2911B739F030073BF91 /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A3C28F1B739F030073BF91 /* ScannerViewController.m */; };
 		A8CECCEB1B5CEE850087D0C6 /* LogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CECCEA1B5CEE850087D0C6 /* LogTableViewController.swift */; };
@@ -54,10 +54,10 @@
 		A8D8AD2D1B44207000D26085 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D8AD2C1B44207000D26085 /* MainViewController.swift */; };
 		A8D8AD2F1B456D2A00D26085 /* SelectAccessoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D8AD2E1B456D2A00D26085 /* SelectAccessoryTableViewCell.swift */; };
 		A8D8AD311B4583DD00D26085 /* DoorLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D8AD301B4583DD00D26085 /* DoorLockViewController.swift */; };
-		A8E1378E1BBAD7F00041C406 /* HomesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1378D1BBAD7F00041C406 /* HomesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A8E137901BBAD94B0041C406 /* RoomConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1378F1BBAD94B0041C406 /* RoomConfigurationViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A8E137921BBAD9730041C406 /* AccessoryConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E137911BBAD9730041C406 /* AccessoryConfigurationViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A8E137941BBEAF570041C406 /* HomeConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E137931BBEAF570041C406 /* HomeConfigurationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A8E1378E1BBAD7F00041C406 /* HomesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1378D1BBAD7F00041C406 /* HomesTableViewController.swift */; };
+		A8E137901BBAD94B0041C406 /* RoomConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1378F1BBAD94B0041C406 /* RoomConfigurationViewController.swift */; };
+		A8E137921BBAD9730041C406 /* AccessoryConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E137911BBAD9730041C406 /* AccessoryConfigurationViewController.swift */; };
+		A8E137941BBEAF570041C406 /* HomeConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E137931BBEAF570041C406 /* HomeConfigurationViewController.swift */; };
 		A8F780C11B78CC92001EB3BC /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F780C01B78CC92001EB3BC /* SwitchViewController.swift */; };
 		A8F780C31B78CCE4001EB3BC /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F780C21B78CCE4001EB3BC /* Switch.swift */; };
 		A8F780C51B78E409001EB3BC /* OutletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F780C41B78E409001EB3BC /* OutletViewController.swift */; };
@@ -593,7 +593,8 @@
 				TargetAttributes = {
 					A8A0DF6E1AF10B89005FEE8F = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = P3R8YQEV4L;
+						DevelopmentTeam = 7W6EYK4544;
+						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.HomeKit = {
 								enabled = 1;
@@ -602,6 +603,7 @@
 					};
 					A8A0DF831AF10B89005FEE8F = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = A8A0DF6E1AF10B89005FEE8F;
 					};
 				};
@@ -839,17 +841,20 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7W6EYK4544;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/nRFHomekit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinbrown.nRFHomeKit;
 				PRODUCT_NAME = nRFHomeKit;
 				PROVISIONING_PROFILE = "";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "nRFHomeKit/ColorWheel/nRFHomeKit-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				"SWIFT_OBJC_INTERFACE_HEADER_NAME[arch=*]" = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -864,15 +869,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7W6EYK4544;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/nRFHomekit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinbrown.nRFHomeKit;
 				PRODUCT_NAME = nRFHomeKit;
 				PROVISIONING_PROFILE = "";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "nRFHomeKit/ColorWheel/nRFHomeKit-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -892,6 +900,7 @@
 				INFOPLIST_FILE = nRFHomekitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = nRFHomeKitTests;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nRFHomeKit.app/nRFHomeKit";
 			};
 			name = Debug;
@@ -907,6 +916,7 @@
 				INFOPLIST_FILE = nRFHomekitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = nRFHomeKitTests;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nRFHomeKit.app/nRFHomeKit";
 			};
 			name = Release;
